@@ -1,4 +1,3 @@
-import java.util.Random;
 
 /**
  * Class implementing a bank account.
@@ -12,26 +11,140 @@ public class BankAccount {
     /*
      * You may want to use this to distinguish between different kinds of accounts.
      */
+
+    /**
+     * efhkdjfhekfhkehfkjsd.
+     */
     public enum BankAccountType {
+        /**
+         * dfjkhdskfh.
+         */
         CHECKINGS,
+        /**
+         * hfkjdshfk.
+         */
         SAVINGS,
+        /**
+         * fdsjfdkjsh.
+         */
         STUDENT,
+        /**
+         * fjdsfhkjsd.
+         */
         WORKPLACE
     }
 
-    private int accountNumber;
-    public BankAccountType accountType;
+    /**
+     * fhskdjfdsh.
+     */
+
+    private BankAccountType accountType;
+    /**
+     * dsgfhjdgfdhj.
+     */
     private double accountBalance;
+    /**
+     * fdjshf.
+     */
     private String ownerName;
-    public double interestRate;
+    /**
+     * fhjsd.
+     */
+    private double interestRate;
+    /**
+     * dhfksj.
+     */
     private double interestEarned;
 
+    /**
+     * fhdsjhsdfkj.
+     * @param name jkdhsfhds
+     * @param accountCategory fhdsjkfs.
+     */
     public BankAccount(final String name, final BankAccountType accountCategory) {
-        /*
-         * Implement this function
-         */
+        ownerName = name;
+        accountType = accountCategory;
     }
 
+    /**
+     * ghfjghdf.
+     * @param newType type.
+     */
+    public void setAccountType(final BankAccountType newType) {
+        accountType = newType;
+    }
+
+    /**
+     * fsdhkjfds.
+     * @return kjfhsdjfksd.
+     */
+    public BankAccountType getAccountType() {
+        return accountType;
+    }
+
+    /**
+     * hjkvd.
+     * @param newBalance fsdhgfhdjs.
+     */
+    public void setAccountBalance(final double newBalance) {
+        accountBalance = newBalance;
+    }
+
+    /**
+     * fidshfkdsjhfkds.
+     * @return fkjdshfjkdsfhds.
+     */
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    /**
+     * fjdskjfh.
+     * @param newName fjskdhhfsjk.
+     */
+    public void setOwnerName(final String newName) {
+        ownerName = newName;
+    }
+
+    /**
+     * hfdjks.
+     * @return jdsfhjk.
+     */
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    /**
+     * fdjshkfs.
+     * @param newInterestRate djksa.
+     */
+    public void setInterestRate(final double newInterestRate) {
+        interestRate = newInterestRate;
+    }
+
+    /**
+     * fdshfkj.
+     * @return jhkdsfjjdh.
+     */
+    public double getInterestRate() {
+        return interestRate;
+    }
+
+    /**
+     * jhfdskjfdsk.
+     * @param newInterestEarned jkdfs.
+     */
+    public void setInterestEarned(final double newInterestEarned) {
+        interestEarned = newInterestEarned;
+    }
+
+    /**
+     * fojdshfjkdhfs.
+     * @return fdhskfhskjfhs.
+     */
+    public double getInterestEarned() {
+        return interestEarned;
+    }
     /*
      * Implement getters and setters as appropriate for private variables.
      */
